@@ -1,2 +1,16 @@
-# fullstack-task-manager-with-auth
-"A full-stack habit tracking application built with PostgreSQL, Express, React, and Node.js. Features secure user authentication using JWT and password hashing with bcrypt, alongside a relational database managed by Sequelize ORM."
+# PERN Stack Habit Tracker
+
+A full-stack habit tracking application built with PostgreSQL, Express, React, and Node.js.
+
+## Features
+- **Authentication:** JWT & bcrypt password hashing.
+- **Database:** Relational data management with PostgreSQL and Sequelize.
+- **CRUD:** Users can create, read, update, and delete their own habits.
+- **Responsive UI:** Built with React and CSS.
+
+## Setup
+1. Clone the repo
+2. Install dependencies for both folders: `npm install`
+3. Configure your `.env` in the backend folder.
+4. Run backend: `npm run dev`
+5. Run frontend: `npm start`
